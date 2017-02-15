@@ -1,0 +1,57 @@
+body {
+	font-family: sans-serif;
+	background: #384047;
+	margin: 0;
+}
+h1 {
+	color: #fff;
+	text-align: center
+}
+
+ul {
+	list-style:none;
+	margin: 0 auto;
+	padding: 0;
+	display: block;
+	max-width: 780px;
+	text-align: center;
+}
+ul li {
+	display: inline-block;
+	padding: 8px;
+	background:white;
+	margin:10px;
+}
+ul li img {
+	display: block;
+}
+a {
+	text-decoration: none;
+}
+/** Start Coding Here **/
+.overlay {
+	display: none;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	position: absolute;
+	top: 0;
+}
+
+.show {
+	display: block;
+}
+
+figure {
+	position: absolute;
+	display: none;
+	z-index: 5;
+	left: 50%;
+	transform: translateX(-50%);
+	margin: 50px 0;
+}
+
+figcaption {
+	color: white;
+}
